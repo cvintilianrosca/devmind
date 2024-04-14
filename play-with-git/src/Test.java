@@ -12,4 +12,8 @@ public class Test {
     public static int sum(int a, int b) {
         return a + b;
     }
+
+    public static void doStuff() {
+        System.out.println("Doing some stuff");
+    }
 }
