@@ -8,4 +8,8 @@ public class Test {
             System.out.println("Ana are mere si stie SSH");
         }
     }
+
+    public static int sum(int a, int b) {
+        return a + b;
+    }
 }
