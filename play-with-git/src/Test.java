@@ -25,4 +25,8 @@ public class Test {
             return false;
         }
     }
+
+    public static void doStuff() {
+        System.out.println("Doing some stuff");
+    }
 }
