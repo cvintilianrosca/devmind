@@ -3,6 +3,9 @@
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("Ana are mere si stie SSH");
+        String ana = "Ana";
+        if ("Ana".equals(ana)) {
+            System.out.println("Ana are mere si stie SSH");
+        }
     }
 }
