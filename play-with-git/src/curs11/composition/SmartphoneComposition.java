@@ -1,6 +1,8 @@
 package curs11.composition;
 
-public class SmartphoneComposition {
+import java.util.List;
+
+public class SmartphoneComposition extends Phone {
     Screen screen;
     Battery battery;
     Speaker speaker;
@@ -23,7 +25,20 @@ public class SmartphoneComposition {
 
 
 class Screen {
+
+    List<Pixels> pixelsList;
     String screen;
+}
+
+enum COLOR {
+    RED, GREEN, BLUE
+}
+class Pixels {
+    COLOR RED = COLOR.RED;
+    COLOR GREEN;
+    COLOR BLUE;
+    String a;
+    String lux;
 }
 
 class Battery {
