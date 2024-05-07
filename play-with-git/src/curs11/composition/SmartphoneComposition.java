@@ -1,24 +1,25 @@
 package curs11.composition;
 
 public class SmartphoneComposition {
+    Screen screen;
+    Battery battery;
+    Speaker speaker;
 
+    // stoika
+    // perestroika
+
+    public SmartphoneComposition(Screen screen, Battery battery, Speaker speaker) {
+        this.screen = screen;
+        this.battery = battery;
+        this.speaker = speaker;
+    }
+
+    public SmartphoneComposition() {
+        this.screen = new Screen();
+        this.battery = new Battery();
+        this.speaker = new Speaker();
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 class Screen {
