@@ -1,8 +1,11 @@
-package curs11.dinamyc_polymorphism;
+package curs12.recap;
 
 public class Om {
 
-    String firstName = "Om";
+    public Om(String name) {
+
+    }
+
     void doStuff() {
         System.out.println("OM");
     }
